@@ -1,11 +1,11 @@
 <!-- ===================== HERO ===================== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=3500&pause=800&color=38B2AC&center=true&vCenter=true&width=600&lines=Easir+Iqbal+Mahi;Software+Developer;Cloud+%7C+Backend+%7C+AI+Enthusiast" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=3500&pause=800&color=38B2AC&center=true&vCenter=true&width=650&lines=Easir+Iqbal+Mahi;Software+Developer;Backend+%7C+Cloud+%7C+AI+Focused" />
 
 <p align="center">
-  Building real-world systems, not toy projects.<br/>
-  Focused on performance, scalability, and clean architecture.
+  I build production-grade systems.<br/>
+  Performance, scalability, and clean architecture come first.
 </p>
 
 <p align="center">
@@ -23,7 +23,8 @@
   </a>
 </p>
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=Sosuke-d-Mahi" />
+<!-- Visitor Counter (ONLY this one) -->
+<img src="https://count.getloli.com/get/@Sosuke-d-Mahi?theme=rule34" />
 
 </div>
 
@@ -31,20 +32,21 @@
 
 ## 🧠 About Me
 
-I'm **Easir Iqbal Mahi**, a software developer who enjoys solving **non-trivial problems** and building systems that actually survive production.
+I’m **Easir Iqbal Mahi**, a software developer focused on building systems that actually work in the real world.
 
-- I don’t chase frameworks — I chase **outcomes**
-- I care about **performance, scalability, and maintainability**
-- I enjoy breaking things to understand how they really work
+I care about:
+- Clean architecture over shortcuts
+- Measurable performance over hype
+- Long-term maintainability over quick hacks
 
-Outside of coding:
-- 🎮 Competitive & battleground-style gaming
-- 🎧 Music as a creative reset
-- ⚙️ Constantly experimenting with new tech stacks
+Outside work:
+- 🎮 Battleground-style gaming
+- 🎧 Music for focus and creativity
+- ⚙️ Constantly experimenting with new technologies
 
 ---
 
-## 🧰 Core Tech Stack
+## 🧰 Tech Stack
 
 ### Languages
 <p>
@@ -73,27 +75,17 @@ Outside of coding:
 
 ---
 
-## 📊 GitHub Analytics
 
-<div align="center">
+## 🚀 Current Focus
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sosuke-d-Mahi&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" height="170"/>
-
-<img src="https://github-readme-streak-stats.vercel.app?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
-
-</div>
-
-## 🔝 Top Contributions
-
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Sosuke-d-Mahi&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" />
-</div>
+- High-performance backend services
+- Cloud-native infrastructure
+- AI-assisted automation
+- Building systems that scale under load
 
 ---
 
-## ✍️ Dev Philosophy
+## ✍️ Dev Mindset
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
@@ -101,17 +93,8 @@ Outside of coding:
 
 ---
 
-## 🚀 What I'm Focused On Now
-
-- High-performance backend systems
-- AI-assisted automation
-- Cloud-native architecture
-- Building products people actually use
-
----
-
 <div align="center">
 
-**If you’re looking for clean code, honest opinions, and systems that scale — we’ll get along.**
+**I don’t aim to look busy — I aim to build things that last.**
 
 </div>
