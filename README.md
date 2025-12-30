@@ -1,27 +1,126 @@
-# 💫 About Me:
-Hello! I'm Easir Iqbal Mahi, a passionate software developer with a love for creating innovative solutions and exploring new technologies. I thrive on challenges and enjoy working on projects that push my boundaries and expand my skill set.<br><br>Interests<br>Technology: I am fascinated by the ever-evolving tech landscape and enjoy keeping up with the latest trends in software development, cloud computing, and AI.<br>Gaming: In my free time, I love playing video games, especially Battleground types<br>Music: Music is a huge part of my life. I enjoy listening to various genres and often find inspiration in the melodies and lyrics
+<!-- ===================== HERO ===================== -->
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=3500&pause=800&color=38B2AC&center=true&vCenter=true&width=600&lines=Easir+Iqbal+Mahi;Software+Developer;Cloud+%7C+Backend+%7C+AI+Enthusiast" />
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/mj8cV9ty) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/easir.d.mahi) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/editz_of_easir) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:easiriqbalmahi@gmail.com) 
+<p align="center">
+  Building real-world systems, not toy projects.<br/>
+  Focused on performance, scalability, and clean architecture.
+</p>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=plastic&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=plastic&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=plastic&logo=glitch&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=plastic&logo=heroku&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=plastic&logo=oracle&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=plastic&logo=nVIDIA&logoColor=green) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=plastic&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=plastic&logo=Adobe%20Premiere%20Pro&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=plastic&labelColor=171717&logoColor=5cb85c) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=plastic&logo=firefox&logoColor=#FF7139)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Sosuke-d-Mahi&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+  <a href="https://facebook.com/easir.d.mahi">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/editz_of_easir">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://discord.gg/mj8cV9ty">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
+  <a href="mailto:easiriqbalmahi@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Sosuke-d-Mahi&theme=dark&no-frame=false&no-bg=false&margin-w=4)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Sosuke-d-Mahi" />
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Sosuke-d-Mahi&limit=5&theme=blue_navy&combine_all_yearly_contributions=true)
+</div>
 
 ---
-[![](https://count.getloli.com/get/@Sosuke-d-Mahi?theme=rule34)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🧠 About Me
+
+I'm **Easir Iqbal Mahi**, a software developer who enjoys solving **non-trivial problems** and building systems that actually survive production.
+
+- I don’t chase frameworks — I chase **outcomes**
+- I care about **performance, scalability, and maintainability**
+- I enjoy breaking things to understand how they really work
+
+Outside of coding:
+- 🎮 Competitive & battleground-style gaming
+- 🎧 Music as a creative reset
+- ⚙️ Constantly experimenting with new tech stacks
+
+---
+
+## 🧰 Core Tech Stack
+
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,php,kotlin,bash" />
+</p>
+
+### Backend & Infrastructure
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,nginx,mongodb,mysql,redis" />
+</p>
+
+### Cloud & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare,vercel,heroku,oracle" />
+</p>
+
+### Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,html" />
+</p>
+
+### Tools & Workflow
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,gitlab,postman,linux" />
+</p>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sosuke-d-Mahi&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Sosuke-d-Mahi&theme=tokyonight&no-frame=true&row=1&margin-w=15" />
+</div>
+
+---
+
+## 🔝 Top Contributions
+
+<div align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Sosuke-d-Mahi&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" />
+</div>
+
+---
+
+## ✍️ Dev Philosophy
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
+
+---
+
+## 🚀 What I'm Focused On Now
+
+- High-performance backend systems
+- AI-assisted automation
+- Cloud-native architecture
+- Building products people actually use
+
+---
+
+<div align="center">
+
+**If you’re looking for clean code, honest opinions, and systems that scale — we’ll get along.**
+
+</div>
