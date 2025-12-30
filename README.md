@@ -77,22 +77,13 @@ Outside of coding:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sosuke-d-Mahi&show_icons=true&theme=tokyonight&hide_border=true" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=Sosuke-d-Mahi&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" height="170"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&layout=compact&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-streak-stats.vercel.app?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
 
 </div>
-
----
-
-## 🏆 Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sosuke-d-Mahi&theme=tokyonight&no-frame=true&row=1&margin-w=15" />
-</div>
-
----
 
 ## 🔝 Top Contributions
 
