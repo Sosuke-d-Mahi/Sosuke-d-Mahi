@@ -1,100 +1,140 @@
-<!-- ===================== HERO ===================== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=3500&pause=800&color=38B2AC&center=true&vCenter=true&width=650&lines=Easir+Iqbal+Mahi;Software+Developer;Backend+%7C+Cloud+%7C+AI+Focused" />
+# Easir Iqbal Mahi
+
+### Software Developer • Backend Engineering • Cloud Infrastructure • AI Systems
+
+Building scalable applications, automation platforms, and intelligent software solutions with a focus on performance, reliability, and long-term maintainability.
 
 <p align="center">
-  I build production-grade systems.<br/>
-  Performance, scalability, and clean architecture come first.
-</p>
-
-<p align="center">
-  <a href="https://facebook.com/easir.d.mahi">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  <a href="https://www.easirmahi.top">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
-  <a href="https://instagram.com/editz_of_easir">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/easirmahi/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://discord.gg/mj8cV9ty">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  <a href="https://github.com/Sosuke-d-Mahi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="mailto:easiriqbalmahi@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
-
-<!-- Visitor Counter (ONLY this one) -->
-<img src="https://count.getloli.com/get/@Sosuke-d-Mahi?theme=rule34" />
 
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-I’m **Easir Iqbal Mahi**, a software developer focused on building systems that actually work in the real world.
+I'm **Easir Iqbal Mahi**, a software developer from Bangladesh passionate about building software that solves real-world problems.
 
-I care about:
-- Clean architecture over shortcuts
-- Measurable performance over hype
-- Long-term maintainability over quick hacks
+My work focuses on:
 
-Outside work:
-- 🎮 Battleground-style gaming
-- 🎧 Music for focus and creativity
-- ⚙️ Constantly experimenting with new technologies
+* Backend systems and API architecture
+* Cloud infrastructure and deployment
+* AI-powered applications and automation
+* Database design and optimization
+* Educational technology platforms
+
+Currently building solutions in education, productivity, and intelligent document systems while continuously expanding my expertise in scalable software engineering.
 
 ---
 
-## 🧰 Tech Stack
+## Featured Projects
+
+### dgEdu — School Management Platform
+
+A comprehensive digital platform designed to modernize educational institutions.
+
+**Key Features**
+
+* Student & teacher management
+* Attendance tracking
+* Result management
+* Fee & payment systems
+* SMS integration
+* Role-based permissions
+* AI-assisted educational tools
+
+### Notebook AI
+
+An intelligent textbook assistant powered by Retrieval-Augmented Generation (RAG).
+
+**Key Features**
+
+* Persistent PDF knowledge base
+* Semantic search
+* Context-aware answers
+* Multi-document support
+* Long-term storage architecture
+
+### Anchestor
+
+Software development initiative focused on creating modern web, mobile, and AI-powered applications.
+
+---
+
+## Technology Stack
 
 ### Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,php,kotlin,bash" />
-</p>
 
-### Backend & Infrastructure
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,nginx,mongodb,mysql,redis" />
-</p>
-
-### Cloud & Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare,vercel,heroku,oracle" />
+  <img src="https://skillicons.dev/icons?i=typescript,javascript,python,php,bash" />
 </p>
 
 ### Frontend
+
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,html" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
 </p>
 
-### Tools & Workflow
+### Backend
+
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,postman,linux" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,redis" />
+</p>
+
+### Mobile
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart" />
+</p>
+
+### Cloud & DevOps
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,nginx,docker,cloudflare,aws" />
+</p>
+
+### Development Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode" />
 </p>
 
 ---
 
+## Current Focus
 
-## 🚀 Current Focus
-
-- High-performance backend services
-- Cloud-native infrastructure
-- AI-assisted automation
-- Building systems that scale under load
-
----
-
-## ✍️ Dev Mindset
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
+* Educational Technology
+* AI & Retrieval-Augmented Generation (RAG)
+* Cloud-Native Applications
+* Backend Performance Optimization
+* Automation & Intelligent Workflows
 
 ---
 
+## Philosophy
+
+> Great software is not measured by complexity.
+>
+> It is measured by reliability, maintainability, and the value it delivers to people.
+
+---
+
 <div align="center">
 
-**I don’t aim to look busy — I aim to build things that last.**
+### Open to collaboration, learning opportunities, and impactful projects.
 
 </div>
