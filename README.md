@@ -2,9 +2,9 @@
 
 # Easir Iqbal Mahi
 
-### Software Developer • Backend Engineering • Cloud Infrastructure • AI Systems
+### Software Engineer • Product Builder • AI & Cloud Enthusiast
 
-Building scalable applications, automation platforms, and intelligent software solutions with a focus on performance, reliability, and long-term maintainability.
+Building scalable software, intelligent systems, and digital products that solve real-world problems.
 
 <p align="center">
   <a href="https://www.easirmahi.top">
@@ -21,120 +21,175 @@ Building scalable applications, automation platforms, and intelligent software s
   </a>
 </p>
 
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1200&center=true&vCenter=true&width=900&lines=Software+Engineer;Founder+of+dgEdu;Full-Stack+Developer;Backend+%26+Cloud+Engineer;AI+Systems+Builder;Always+Learning+Always+Building" />
+
 </div>
 
 ---
 
-## About Me
+# About Me
 
-I'm **Easir Iqbal Mahi**, a software developer from Bangladesh passionate about building software that solves real-world problems.
+Hello, I'm **Easir Iqbal Mahi**, a software developer from Bangladesh passionate about building impactful technology.
 
-My work focuses on:
+My journey started with curiosity and evolved into building complete software products, cloud infrastructure, AI-powered applications, educational platforms, and scalable backend systems.
 
-* Backend systems and API architecture
-* Cloud infrastructure and deployment
-* AI-powered applications and automation
-* Database design and optimization
-* Educational technology platforms
+Currently I focus on:
 
-Currently building solutions in education, productivity, and intelligent document systems while continuously expanding my expertise in scalable software engineering.
+* Full-Stack Application Development
+* Backend Architecture & APIs
+* AI-Powered Systems & RAG
+* Cloud Infrastructure & DevOps
+* Educational Technology
+* Product Development
+
+I believe software should be:
+
+* Reliable
+* Maintainable
+* Scalable
+* User-Centered
 
 ---
 
-## Featured Projects
+# What I'm Building
 
-### dgEdu — School Management Platform
+## dgEdu
 
-A comprehensive digital platform designed to modernize educational institutions.
+A comprehensive digital ecosystem designed to modernize educational institutions across Bangladesh.
 
-**Key Features**
+### Features
 
-* Student & teacher management
-* Attendance tracking
-* Result management
-* Fee & payment systems
-* SMS integration
-* Role-based permissions
-* AI-assisted educational tools
+* Student Management
+* Teacher Management
+* Attendance Tracking
+* Result Management
+* Fee Collection
+* SMS Integration
+* Role-Based Permissions
+* Analytics Dashboard
+* AI-Assisted Educational Tools
 
-### Notebook AI
+---
+
+## Notebook AI
 
 An intelligent textbook assistant powered by Retrieval-Augmented Generation (RAG).
 
-**Key Features**
+### Capabilities
 
-* Persistent PDF knowledge base
+* Upload textbooks
+* Persistent document storage
 * Semantic search
-* Context-aware answers
-* Multi-document support
-* Long-term storage architecture
-
-### Anchestor
-
-Software development initiative focused on creating modern web, mobile, and AI-powered applications.
+* Multi-book support
+* AI-powered learning assistance
+* Context-aware responses
 
 ---
 
-## Technology Stack
+## Cloud & Infrastructure Projects
 
-### Languages
+I actively work with:
+
+* VPS Infrastructure
+* Linux Servers
+* Nginx
+* Reverse Proxies
+* Cloudflare
+* CI/CD Pipelines
+* Domain Management
+* Deployment Automation
+* Performance Optimization
+
+---
+
+# Technology Stack
+
+## Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=typescript,javascript,python,php,bash" />
+<img src="https://skillicons.dev/icons?i=typescript,javascript,python,php,java,cpp,cs,go,rust,kotlin,dart,bash" />
 </p>
 
-### Frontend
+## Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,html,css,vite" />
 </p>
 
-### Backend
+## Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,redis" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,django,flask" />
 </p>
 
-### Mobile
+## Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=flutter,dart" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis,supabase,firebase" />
 </p>
 
-### Cloud & DevOps
+## Mobile
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,nginx,docker,cloudflare,aws" />
+<img src="https://skillicons.dev/icons?i=flutter,dart" />
 </p>
 
-### Development Tools
+## Cloud & DevOps
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode" />
+<img src="https://skillicons.dev/icons?i=linux,docker,aws,cloudflare,nginx,githubactions" />
+</p>
+
+## Development Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,postman,vscode,figma" />
 </p>
 
 ---
 
-## Current Focus
+# Experience
 
+### Senior Developer — Anchestor
+
+Leading the development of modern web applications, mobile platforms, AI systems, and cloud-hosted solutions.
+
+Key responsibilities include:
+
+* Product Architecture
+* Backend Engineering
+* API Design
+* Cloud Deployment
+* Database Engineering
+* Technical Leadership
+* Performance Optimization
+
+---
+
+# Current Interests
+
+* Artificial Intelligence
+* Retrieval-Augmented Generation (RAG)
 * Educational Technology
-* AI & Retrieval-Augmented Generation (RAG)
-* Cloud-Native Applications
-* Backend Performance Optimization
-* Automation & Intelligent Workflows
+* Distributed Systems
+* Backend Performance
+* Cloud Computing
+* Product Strategy
 
 ---
 
-## Philosophy
+# Philosophy
 
-> Great software is not measured by complexity.
+> Technology is not about writing code.
 >
-> It is measured by reliability, maintainability, and the value it delivers to people.
+> Technology is about solving problems, creating opportunities, and building systems that continue delivering value long after they are deployed.
 
 ---
 
 <div align="center">
 
-### Open to collaboration, learning opportunities, and impactful projects.
+### Building. Learning. Improving.
+
+*"Great products are built one iteration at a time."*
 
 </div>
