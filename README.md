@@ -53,6 +53,9 @@ TypeScript • Python • Go • Distributed Systems • Cloud Architecture
 ### 📊 Telemetry
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Sosuke-d-Mahi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Sosuke-d-Mahi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sosuke-d-Mahi&theme=tokyonight" alt="Profile Summary" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sosuke-d-Mahi&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" alt="Commit Activity Graph" />
 </p>
