@@ -2,10 +2,10 @@
 
 # Easir Iqbal Mahi
 
-**Software Engineer • Cloud & AI Systems**
+<h4>Full-stack Software Developer</h4>
 
 ```text
-TypeScript • Python • Go • Distributed Systems • Cloud Architecture
+TypeScript • Python • Go • Nodejs • JavaScript • Java • Flutter • Kotlin 
 ```
 
 <p align="center">
@@ -17,36 +17,80 @@ TypeScript • Python • Go • Distributed Systems • Cloud Architecture
 
 </div>
 
----
+> <h3>I don’t seek approval, I seek superiority then I build until reality has no choice but to agree.</h3> 
 
-### ⚡ Focus
+<img src="https://icons-samuel.netlify.app/fullheart.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Currently working at **I'm currently working on my own Startup called Lagbeto**
 
-* **Backend & Systems:** Designing scalable APIs, microservices, and database layers.
-* **AI Pipelines:** Implementing retrieval-augmented generation (RAG) and semantic search workflows.
-* **Cloud & DevOps:** Linux infrastructure, container orchestration, Nginx reverse proxies, and CI/CD pipelines.
+<img src="https://icons-samuel.netlify.app/midheart.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Learning **I'm Learning Talking face to face skill :)**
 
----
+<img src="https://icons-samuel.netlify.app/headphones.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Looking to collaborate on **I wanna collaborate with pro Full-stack devs**
+
+<img src="https://icons-samuel.netlify.app/pokeball.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Featured project: **https://github.com/Sosuke-d-Mahi/api-docs.git**
+
+<img src="https://icons-samuel.netlify.app/console_control.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> In my free time **Love playing games and modding those games ^_~**
 
 ### 💼 Experience
 
-* **Senior Developer** — *Anchestor*  
-  Architecture, backend development, database optimization, and cloud infrastructure management.
 
 ---
 
 ### 🛠️ Tech Stack
 
-<div align="center">
-
-| Domain | Technologies | Icons |
-| :--- | :--- | :--- |
-| **Languages** | TypeScript, JavaScript, Python, Go, Bash | <img src="https://skillicons.dev/icons?i=ts,js,py,go,bash" height="28" /> |
-| **Backend** | Node.js, NestJS, FastAPI, Express | <img src="https://skillicons.dev/icons?i=nodejs,nestjs,fastapi,express" height="28" /> |
-| **Databases** | PostgreSQL, Redis, MongoDB, Supabase | <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,supabase" height="28" /> |
-| **Frontend** | React, Next.js, Tailwind CSS | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" height="28" /> |
-| **Cloud & DevOps** | Linux, Docker, Nginx, Cloudflare, GitHub Actions, AWS | <img src="https://skillicons.dev/icons?i=linux,docker,nginx,cloudflare,githubactions,aws" height="28" /> |
-
-</div>
+<p align="center">
+  <img src="https://icons-samuel.netlify.app/linux.png" alt="Linux" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/windows.png" alt="Windows" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/javascript.png" alt="JavaScript" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/typescript.png" alt="TypeScript" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/python.png" alt="Python" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/php.png" alt="PHP" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/java.png" alt="Java" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/csharp.png" alt="C#" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/cplusplus.png" alt="C++" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/c.png" alt="C" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/kotlin.png" alt="Kotlin" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/dart.png" alt="Dart" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/bashscript.png" alt="Bash Script" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/go.png" alt="Go" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/sql.png" alt="SQL" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/swift.png" alt="Swift" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/html5.png" alt="HTML5" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/css3.png" alt="CSS3" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/bootstrap.png" alt="Bootstrap" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/tailwindcss.png" alt="TailwindCSS" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/nodejs.png" alt="Node.js" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/expressjs.png" alt="Express.js" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/react.png" alt="React" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/nextjs.png" alt="Next.js" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/angular.png" alt="Angular" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/fastapi.png" alt="FastAPI" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/django.png" alt="Django" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/vuejs.png" alt="Vue.js" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/astro.png" alt="Astro" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/postgresql.png" alt="PostgreSQL" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/mysql.png" alt="MySQL" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/mongodb.png" alt="MongoDB" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/mariadb.png" alt="MariaDB" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/firestore.png" alt="Firestore" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/redis.png" alt="Redis" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/supabase.webp" alt="Supabase" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/dynamodb.png" alt="DynamoDB" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/firebase.png" alt="Firebase" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/googlecloud.png" alt="Google Cloud" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/railway.png" alt="Railway" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/vercel.png" alt="Vercel" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/cloudflare.png" alt="Cloudflare" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/docker.png" alt="Docker" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/nginx.png" alt="Nginx" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/visualstudiocode.png" alt="VS Code" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/git.png" alt="Git" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/github.png" alt="GitHub" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/vite.png" alt="Vite" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/postman.png" alt="Postman" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/gemini.png" alt="Gemini" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/openia.png" alt="OpenAI" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/claudecode.png" alt="Claude Code" width="50" style="image-rendering: pixelated; margin: 5px;" />
+  <img src="https://icons-samuel.netlify.app/cursorai.png" alt="Cursor AI" width="50" style="image-rendering: pixelated; margin: 5px;" />
+</p>
 
 ---
 
@@ -57,5 +101,8 @@ TypeScript • Python • Go • Distributed Systems • Cloud Architecture
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sosuke-d-Mahi&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" alt="Commit Activity Graph" />
+  <br />
+  <strong>My Statistics</strong>
+  <br /><br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true&title_color=2f81f7&icon_color=2f81f7&bg_color=0d1117" alt="Streak" height="170" />
 </p>
