@@ -2,27 +2,71 @@
   <img src="assets/hero-portrait.svg" width="100%" alt="Easir Iqbal Mahi — Full-stack Software Developer & Founder @ Lagbeto">
 </a>
 
-<p align="center">
-  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="GitHub profile"></a>
-  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=gmail" alt="Email"></a>
-</p>
+<div align="center">
 
-<img src="assets/about-card.svg" width="100%" alt="About Easir Iqbal Mahi">
+# Easir Iqbal Mahi
 
-<p align="center">
-  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Featured_Project-api--docs-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="Featured Project: api-docs"></a>
-</p>
+<h4>Full-stack Software Developer · Founder @ Lagbeto</h4>
 
-<img src="assets/projects-card.svg" width="100%" alt="Featured Work & Venture">
+```text
+TypeScript • Python • Go • Nodejs • JavaScript • Java • Flutter • Kotlin 
+```
 
 <p align="center">
-  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Repository-api--docs-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="api-docs repository"></a>
-  <a href="https://github.com/Sosuke-d-Mahi?tab=repositories"><img src="https://img.shields.io/badge/View_All-Repositories-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="All repositories"></a>
+  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=github" alt="GitHub profile"></a>
+  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=gmail" alt="Email"></a>
 </p>
 
-<img src="assets/tech-card.svg" width="100%" alt="Tech Stack & Toolkit">
+</div>
+
+> <h3>I don’t seek approval, I seek superiority then I build until reality has no choice but to agree.</h3> 
+
+<img src="https://icons-samuel.netlify.app/fullheart.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Currently working at **I'm currently working on my own Startup called Lagbeto**
+
+<img src="https://icons-samuel.netlify.app/midheart.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Learning **I'm Learning Talking face to face skill :)**
+
+<img src="https://icons-samuel.netlify.app/headphones.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Looking to collaborate on **I wanna collaborate with pro Full-stack devs**
+
+<img src="https://icons-samuel.netlify.app/pokeball.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> Featured project: **https://github.com/Sosuke-d-Mahi/api-docs.git**
+
+<img src="https://icons-samuel.netlify.app/console_control.png" width="20" style="vertical-align: middle; image-rendering: pixelated;"> In my free time **Love playing games and modding those games ^_~**
+
+### 💼 Experience
+
+- **Founder & Lead Architect** at **Lagbeto** (2026 – Present)
+  - Leading core product architecture, distributed services in Go and Node.js, and mobile applications in Flutter.
+- **Full-Stack Software Developer** (2024 – 2026)
+  - Engineered production systems, developer tooling (`api-docs`), and reverse-engineered game engine modifications.
+
+---
+
+<img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Easir.">
+<img src="assets/about-intro.svg" width="100%" alt="About: Full-Stack Developer & Founder of Lagbeto.">
+
+<img src="assets/title-recognition.svg" width="100%" alt="02 Recognition — Proof, on the record.">
+<img src="assets/achievement-motif-v2.svg" width="100%" alt="Founder @ Lagbeto, api-docs featured project, 679 GitHub contributions, 15+ production tech stacks.">
+
+<img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not assignments.">
+
+<a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="assets/project-api-docs-v2.svg" width="100%" alt="api-docs: Interactive developer documentation engine."></a>
+<p align="center">
+  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Repository-api--docs-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=github" alt="api-docs repository"></a>
+</p>
+
+<img src="assets/project-lagbeto-v2.svg" width="100%" alt="Lagbeto: Distributed startup platform with Go, Node.js, PostgreSQL, and Flutter.">
+
+<img src="assets/project-modding-v2.svg" width="100%" alt="Game Modding & Custom Tooling: Memory patching, reverse engineering, and hook engines.">
+
+<img src="assets/project-microservices-v2.svg" width="100%" alt="Cloud & Microservices Infrastructure: Low-latency services with Docker, Redis, and PostgreSQL.">
+
+---
+
+<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
+<img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack: TypeScript, Python, Go, Node.js, Flutter, Kotlin, PostgreSQL, Docker, and AI Tooling.">
+
+### 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://icons-samuel.netlify.app/linux.png" alt="Linux" width="50" style="image-rendering: pixelated; margin: 5px;" />
@@ -80,23 +124,38 @@
   <img src="https://icons-samuel.netlify.app/cursorai.png" alt="Cursor AI" width="50" style="image-rendering: pixelated; margin: 5px;" />
 </p>
 
-<img src="assets/contribution-snake.svg" width="100%" alt="Contribution Heatmap Snake">
+---
+
+<img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">
+<img src="assets/contribution-snake.svg" width="100%" alt="GitHub contribution calendar for Sosuke-d-Mahi over the past year (679 contributions).">
+
+### 📊 Telemetry
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sosuke-d-Mahi&theme=tokyonight" alt="Profile Summary" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true&title_color=2f81f7&icon_color=2f81f7&bg_color=0d1117" alt="Streak" height="170" />
+  <br />
+  <strong>My Statistics</strong>
+  <br /><br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sosuke-d-Mahi&theme=tokyonight&hide_border=true&title_color=dc2626&icon_color=dc2626&bg_color=090305" alt="Streak" height="170" />
+</p>
+
+---
+
+<img src="assets/title-certifications.svg" width="100%" alt="06 Core Pillars.">
+<a href="https://www.easirmahi.top/#experience"><img src="assets/certifications.svg" width="100%" alt="Core Pillars: Full-Stack Architecture, Mobile Engineering with Flutter, Distributed Systems, Data & Caching, Systems & Modding, Cloud & DevOps."></a>
+
+<img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something worth explaining.">
+
+<p align="center">
+  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=gmail" alt="Email easiriqbalmahi@gmail.com"></a>
+  <a href="https://www.linkedin.com/in/easirmahi/"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://github.com/Sosuke-d-Mahi"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=github" alt="GitHub profile Sosuke-d-Mahi"></a>
+  <a href="https://www.easirmahi.top"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-881326?style=for-the-badge&labelColor=120508&logoColor=white&logo=vercel" alt="Portfolio website"></a>
 </p>
 
 <a href="https://www.easirmahi.top">
-  <img src="assets/footer-card.svg" width="100%" alt="Easir Iqbal Mahi — Signature">
+  <img src="assets/footer-signature-v2.svg" width="100%" alt="Easir — Building until reality has no choice but to agree.">
 </a>
-
-<p align="center">
-  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="GitHub profile"></a>
-  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=gmail" alt="Email"></a>
-</p>
