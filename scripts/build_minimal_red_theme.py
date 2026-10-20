@@ -1,141 +1,16 @@
+import base64
 import os
 
 # -------------------------------------------------------------
-# 1. assets/hero-portrait.svg (100% PURE VECTOR SVG - ZERO RASTER IMAGES)
+# 1. assets/hero-portrait.svg (Hero Card with User GitHub Avatar)
 # -------------------------------------------------------------
-hero_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Easir Iqbal Mahi — Full-stack Software Developer &amp; Founder @ Lagbeto">
-  <defs>
-    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#17060A"/>
-      <stop offset="50%" stop-color="#0E0407"/>
-      <stop offset="100%" stop-color="#080204"/>
-    </linearGradient>
-    <radialGradient id="hero-glow" cx="80%" cy="30%" r="65%">
-      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#7F1D1D" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#EF4444" stop-opacity="0"/>
-    </radialGradient>
-    <style>
-      .t-bold { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
-      .t-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
-      .t-white { fill: #FFFFFF; }
-      .t-red { fill: #EF4444; }
-      .t-sub { fill: #FECACA; }
-      .pill-tag { fill: #1F070C; stroke: #991B1B; stroke-width: 1.5; rx: 10; }
-      .pill-txt { font-family: system-ui, sans-serif; font-size: 14px; font-weight: 700; fill: #FFFFFF; }
-      .node-box { fill: #240A12; stroke: #991B1B; stroke-width: 1.2; rx: 8; }
-      .node-lbl { font-family: "JetBrains Mono", monospace; font-size: 11px; font-weight: 700; fill: #FECACA; }
-    </style>
-  </defs>
+with open('assets/avatar.jpg', 'rb') as f:
+    avatar_b64 = base64.b64encode(f.read()).decode('utf-8')
 
-  <!-- Background -->
-  <rect x="10" y="10" width="1180" height="420" rx="24" fill="url(#hero-bg)" stroke="#991B1B" stroke-width="2.5"/>
-  <rect x="10" y="10" width="1180" height="420" rx="24" fill="url(#hero-glow)"/>
+with open('assets/hero-portrait.svg', 'r', encoding='utf-8') as f:
+    hero_svg = f.read()
 
-  <!-- Left Info Column -->
-  <g transform="translate(56, 44)">
-    <!-- Eyebrow -->
-    <g>
-      <circle cx="6" cy="6" r="5" fill="#EF4444"/>
-      <text class="t-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#EF4444">FULL-STACK SOFTWARE DEVELOPER · FOUNDER @ LAGBETO</text>
-    </g>
-
-    <!-- Main Title -->
-    <text class="t-bold t-white" x="0" y="68" font-size="52">Easir Iqbal</text>
-    <text class="t-bold" x="0" y="124" font-size="52" fill="#FFFFFF">Mahi<tspan fill="#EF4444">.</tspan></text>
-
-    <!-- Stack Subtitle -->
-    <rect x="0" y="150" width="700" height="40" rx="10" fill="#1C060B" stroke="#991B1B" stroke-width="1.2"/>
-    <text class="t-mono" x="20" y="175" font-size="14" fill="#FFFFFF">TypeScript • Python • Go • Nodejs • JavaScript • Java • Flutter • Kotlin</text>
-
-    <!-- Philosophy Quote -->
-    <g transform="translate(0, 210)">
-      <rect x="0" y="0" width="700" height="68" rx="14" fill="#170509" stroke="#DC2626" stroke-width="1.4"/>
-      <text class="t-bold" x="22" y="28" font-size="16.5" fill="#EF4444">“I don’t seek approval, I seek superiority</text>
-      <text class="t-bold t-white" x="22" y="53" font-size="16.5">then I build until reality has no choice but to agree.”</text>
-    </g>
-
-    <!-- Quick Highlights -->
-    <g transform="translate(0, 298)">
-      <g>
-        <rect class="pill-tag" x="0" y="0" width="220" height="36"/>
-        <text class="pill-txt" x="110" y="23" text-anchor="middle">Startup: Founder @ Lagbeto</text>
-      </g>
-      <g transform="translate(232, 0)">
-        <rect class="pill-tag" x="0" y="0" width="220" height="36"/>
-        <text class="pill-txt" x="110" y="23" text-anchor="middle">Featured: api-docs.git</text>
-      </g>
-      <g transform="translate(464, 0)">
-        <rect class="pill-tag" x="0" y="0" width="236" height="36"/>
-        <text class="pill-txt" x="118" y="23" text-anchor="middle">Passions: Game Modding</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- Right Architecture Panel (Pure SVG Vector — Zero Raster Images) -->
-  <g transform="translate(800, 44)">
-    <rect x="0" y="0" width="344" height="352" rx="20" fill="#17060C" stroke="#991B1B" stroke-width="2"/>
-    
-    <!-- Top Console Header -->
-    <path d="M0 20 C0 9 9 0 20 0 L324 0 C335 0 344 9 344 20 L344 40 L0 40 Z" fill="#240A13"/>
-    <circle cx="20" cy="20" r="4.5" fill="#EF4444"/>
-    <circle cx="34" cy="20" r="4.5" fill="#7F1D1D"/>
-    <circle cx="48" cy="20" r="4.5" fill="#3D0B12"/>
-    <text class="t-mono" x="190" y="25" text-anchor="middle" font-size="11.5" letter-spacing="1.5" fill="#FECACA">SYSTEM ARCHITECTURE</text>
-
-    <!-- Center Technical Core -->
-    <g transform="translate(172, 172)">
-      <!-- Outer Orbit Ring -->
-      <circle cx="0" cy="0" r="115" fill="none" stroke="#991B1B" stroke-width="1.2" stroke-dasharray="5 7"/>
-      <!-- Inner Orbit Ring -->
-      <circle cx="0" cy="0" r="70" fill="none" stroke="#DC2626" stroke-width="1.4" stroke-opacity="0.6"/>
-      
-      <!-- Core Glow -->
-      <circle cx="0" cy="0" r="44" fill="url(#core-glow)"/>
-      <circle cx="0" cy="0" r="32" fill="#881326" stroke="#EF4444" stroke-width="1.8"/>
-      <text class="t-bold" x="0" y="-4" text-anchor="middle" font-size="14" fill="#FFFFFF">LAGBETO</text>
-      <text class="t-mono" x="0" y="14" text-anchor="middle" font-size="10" letter-spacing="1" fill="#FECACA">CORE</text>
-
-      <!-- Node 1: Top (Backend) -->
-      <g transform="translate(0, -96)">
-        <rect class="node-box" x="-56" y="-15" width="112" height="30"/>
-        <text class="node-lbl" x="0" y="5" text-anchor="middle">GO · NODE.JS</text>
-      </g>
-
-      <!-- Node 2: Right (Frontend) -->
-      <g transform="translate(94, 0)">
-        <rect class="node-box" x="-15" y="-15" width="112" height="30"/>
-        <text class="node-lbl" x="41" y="5" text-anchor="middle">NEXT · FLUTTER</text>
-      </g>
-
-      <!-- Node 3: Bottom (Databases) -->
-      <g transform="translate(0, 96)">
-        <rect class="node-box" x="-56" y="-15" width="112" height="30"/>
-        <text class="node-lbl" x="0" y="5" text-anchor="middle">POSTGRES · REDIS</text>
-      </g>
-
-      <!-- Node 4: Left (Systems & AI) -->
-      <g transform="translate(-94, 0)">
-        <rect class="node-box" x="-97" y="-15" width="112" height="30"/>
-        <text class="node-lbl" x="-41" y="5" text-anchor="middle">DOCKER · TOOLS</text>
-      </g>
-    </g>
-
-    <!-- Bottom Status Bar -->
-    <g transform="translate(20, 308)">
-      <rect x="0" y="0" width="304" height="32" rx="8" fill="#200810" stroke="#991B1B" stroke-width="1.2"/>
-      <circle cx="16" cy="16" r="4" fill="#EF4444"/>
-      <text class="t-mono" x="28" y="21" font-size="11.5" letter-spacing="1.2" fill="#FFFFFF">STATUS: ACTIVE DEVELOPER · 679 COMMITS</text>
-    </g>
-  </g>
-</svg>'''
-
-with open('G:/HYML/Sushmitadasari/assets/hero-portrait.svg', 'w', encoding='utf-8') as f:
-    f.write(hero_svg)
-print('Wrote assets/hero-portrait.svg (Pure SVG)')
+print('Loaded assets/hero-portrait.svg with user GitHub avatar')
 
 # -------------------------------------------------------------
 # 2. assets/about-card.svg
