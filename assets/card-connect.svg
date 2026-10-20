@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Connect with Easir Iqbal Mahi">
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .btn-pill { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.4; rx: 12; }
+      .btn-pill-primary { fill: #8B3A4A; rx: 12; }
+      .btn-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14.5px; font-weight: 700; fill: #0F172A; }
+      .btn-text-primary { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14.5px; font-weight: 700; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="10" y="10" width="980" height="220" rx="24" fill="#F8F9FA" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(44, 46)">
+    <circle cx="5" cy="5" r="4.5" fill="#8B3A4A" />
+    <text class="font-mono" x="18" y="9" font-size="13" font-weight="700" letter-spacing="2" fill="#8B3A4A">05 / GET IN TOUCH</text>
+    <text class="font-mono" x="912" y="9" text-anchor="end" font-size="12.5" font-weight="600" letter-spacing="1.5" fill="#64748B">MY INBOX IS OPEN</text>
+  </g>
+
+  <!-- Title & Lede -->
+  <g transform="translate(44, 82)">
+    <text class="font-sans" x="0" y="30" font-size="32" font-weight="800" fill="#0F172A">Let’s build something <tspan fill="#8B3A4A">worth explaining.</tspan></text>
+    <text class="font-sans" x="0" y="60" font-size="15.5" font-weight="500" fill="#475569">Open for high-impact full-stack collaborations, venture engineering, and systems discussions.</text>
+  </g>
+
+  <!-- Action Links / Buttons -->
+  <g transform="translate(44, 168)">
+    <g>
+      <rect class="btn-pill-primary" x="0" y="0" width="250" height="42" />
+      <text class="btn-text-primary" x="125" y="26" text-anchor="middle">✉ easiriqbalmahi@gmail.com</text>
+    </g>
+    <g transform="translate(266, 0)">
+      <rect class="btn-pill" x="0" y="0" width="200" height="42" />
+      <text class="btn-text" x="100" y="26" text-anchor="middle">💼 in/easirmahi ↗</text>
+    </g>
+    <g transform="translate(482, 0)">
+      <rect class="btn-pill" x="0" y="0" width="220" height="42" />
+      <text class="btn-text" x="110" y="26" text-anchor="middle">🐙 @Sosuke-d-Mahi ↗</text>
+    </g>
+    <g transform="translate(718, 0)">
+      <rect class="btn-pill" x="0" y="0" width="194" height="42" />
+      <text class="btn-text" x="97" y="26" text-anchor="middle">🌐 easirmahi.top ↗</text>
+    </g>
+  </g>
+</svg>
