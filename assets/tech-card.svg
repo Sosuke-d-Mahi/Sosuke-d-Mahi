@@ -37,7 +37,7 @@
         <rect class="pill-sub" x="481" y="0" width="62" height="34"/><text class="pill-lbl" x="512" y="22.5" text-anchor="middle">Java</text>
         <rect class="pill-sub" x="553" y="0" width="70" height="34"/><text class="pill-lbl" x="588" y="22.5" text-anchor="middle">Kotlin</text>
         <rect class="pill-sub" x="633" y="0" width="60" height="34"/><text class="pill-lbl" x="663" y="22.5" text-anchor="middle">Dart</text>
-        <rect class="pill-sub" x="703" y="0" width="70" height="34"/><text class="pill-lbl" x="738" y="22.5" text-anchor="middle">C, C++</text>
+        <rect class="pill-sub" x="703" y="0" width="78" height="34"/><text class="pill-lbl" x="742" y="22.5" text-anchor="middle">C, C++</text>
       </g>
     </g>
 
