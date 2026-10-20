@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
- * Renders assets/contribution-snake.svg for the profile README from the
- * real contribution snapshot in site/data/contributions.json.
- * Pure dark + true red theme, clean static vector without broken CSS animations.
+ * Renders assets/contribution-snake.svg with editorial charcoal & burgundy theme.
+ * Clean, lightweight, native radar pulse on status dot, zero broken CSS animation.
  */
 
 import fs from "node:fs";
@@ -18,7 +17,7 @@ const GAP = 4;
 const STEP = CELL + GAP;
 const GRID_X = 118;
 const GRID_Y = 175;
-const LEVELS = ["#1A070C", "#5F111E", "#991B1B", "#DC2626", "#EF4444"];
+const LEVELS = ["#14151B", "#4A121E", "#7F1D2D", "#DC2626", "#EF4444"];
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const toDate = (iso) => new Date(`${iso}T00:00:00Z`);
@@ -69,7 +68,7 @@ const cellsSvg = days
   .map((d, i) => {
     const { x, y } = pos(i);
     const color = LEVELS[d.level] || LEVELS[0];
-    return `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3.5" fill="${color}"><title>${label(d)}</title></rect>`;
+    return `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${color}"><title>${label(d)}</title></rect>`;
   })
   .join("\n    ");
 
@@ -78,8 +77,8 @@ if (best > 1) {
   const startPos = pos(bestStart);
   const labelX = Math.min(startPos.x, W - 420);
   streakSvg = `<g>
-      <path d="M${startPos.x + CELL / 2} ${GRID_Y + 7 * STEP - 2} V ${GRID_Y + 7 * STEP + 10}" stroke="#EF4444" stroke-width="1.8"/>
-      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="12" font-weight="700" letter-spacing="1.2" fill="#EF4444">LONGEST STREAK · ${best} DAYS · ${fmt(toDate(days[bestStart].date)).toUpperCase()} – ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
+      <path d="M${startPos.x + CELL / 2} ${GRID_Y + 7 * STEP - 2} V ${GRID_Y + 7 * STEP + 10}" stroke="#DC2626" stroke-width="1.8"/>
+      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="12" font-weight="700" letter-spacing="1.2" fill="#DC2626">LONGEST STREAK · ${best} DAYS · ${fmt(toDate(days[bestStart].date)).toUpperCase()} – ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
     </g>`;
 }
 
@@ -107,45 +106,42 @@ const statsSvg = stats
   .map(([lbl, value, sub], i) => {
     const x = 580 + i * 150;
     return `<g transform="translate(${x} 54)">
-      <rect x="0" y="0" width="140" height="74" rx="14" fill="#1D060C" stroke="#991B1B" stroke-width="1.4" />
-      <text class="hm-mono" x="14" y="24" font-size="11" font-weight="700" letter-spacing="1.2" fill="#EF4444">${lbl}</text>
+      <rect x="0" y="0" width="140" height="74" rx="10" fill="#14151B" stroke="#23242B" stroke-width="1.2" />
+      <text class="hm-mono" x="14" y="24" font-size="11" font-weight="700" letter-spacing="1.2" fill="#DC2626">${lbl}</text>
       <text class="hm-sans" x="14" y="52" font-size="26" font-weight="800" fill="#FFFFFF">${esc(value)}</text>
-      <text class="hm-mono" x="14" y="66" font-size="10" font-weight="600" fill="#FECACA">${esc(sub)}</text>
+      <text class="hm-mono" x="14" y="66" font-size="10" font-weight="600" fill="#A1A1AA">${esc(sub)}</text>
     </g>`;
   })
   .join("\n    ");
 
 const legendX = W - 56 - 5 * 20 - 90;
-const legend = LEVELS.map((c, i) => `<rect x="${legendX + 42 + i * 20}" y="369" width="14" height="14" rx="3.5" fill="${c}"/>`).join("");
+const legend = LEVELS.map((c, i) => `<rect x="${legendX + 42 + i * 20}" y="369" width="14" height="14" rx="3" fill="${c}"/>`).join("");
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="hm-title hm-desc">
   <title id="hm-title">GitHub contributions for @${esc(data.login)}</title>
   <desc id="hm-desc">${total} contributions from ${fmt(first)} to ${fmt(last)}: ${active} active days, longest streak ${best} days, busiest day ${peak.count} contributions on ${fmt(toDate(peak.date))}. Source: ${esc(data.method || "public GitHub contribution calendar")}, snapshot ${fetched}.</desc>
-  <defs>
-    <linearGradient id="hm-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#17060A"/>
-      <stop offset="100%" stop-color="#0A0205"/>
-    </linearGradient>
-  </defs>
   <style>
     .hm-sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
     .hm-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 700; }
   </style>
 
-  <!-- Dark Reddish Card Background -->
-  <rect x="10" y="10" width="${W - 20}" height="${H - 20}" rx="24" fill="url(#hm-bg)" stroke="#991B1B" stroke-width="2.5"/>
+  <rect x="8" y="8" width="${W - 16}" height="${H - 16}" rx="20" fill="#0C0D11" stroke="#222329" stroke-width="1.5"/>
 
   <!-- Top Header Bar -->
-  <g transform="translate(56, 46)">
-    <circle cx="6" cy="6" r="5" fill="#EF4444" />
-    <text class="hm-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#EF4444">04 · COMMIT LOG &amp; REAL ACTIVITY</text>
-    <text class="hm-sans" x="0" y="58" font-size="32" fill="#FFFFFF">A year of building, <tspan fill="#EF4444">one square</tspan> at a time.</text>
+  <g transform="translate(48, 42)">
+    <circle cx="6" cy="6" r="4" fill="#DC2626"/>
+    <circle cx="6" cy="6" r="4" fill="none" stroke="#DC2626" stroke-width="1.5">
+      <animate attributeName="r" values="4;10;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text class="hm-mono" x="22" y="10" font-size="12.5" letter-spacing="1.8" fill="#E4E4E7">04 · COMMIT LOG &amp; REAL ACTIVITY</text>
+    <text class="hm-sans" x="0" y="58" font-size="32" fill="#FFFFFF">A year of building, <tspan fill="#DC2626">one square</tspan> at a time.</text>
     ${statsSvg}
   </g>
 
   <!-- Month & Day Labels -->
-  <g class="hm-mono" font-size="12" fill="#FECACA">${monthSvg}</g>
-  <g class="hm-mono" font-size="11.5" fill="#FECACA" text-anchor="end">
+  <g class="hm-mono" font-size="12" fill="#A1A1AA">${monthSvg}</g>
+  <g class="hm-mono" font-size="11.5" fill="#71717A" text-anchor="end">
     <text x="${GRID_X - 14}" y="${GRID_Y + STEP + 11}">Mon</text>
     <text x="${GRID_X - 14}" y="${GRID_Y + 3 * STEP + 11}">Wed</text>
     <text x="${GRID_X - 14}" y="${GRID_Y + 5 * STEP + 11}">Fri</text>
@@ -160,10 +156,10 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 
   <!-- Footer Legend -->
   <g>
-    <text class="hm-mono" x="56" y="380" font-size="12" fill="#FECACA">Source: public GitHub contribution calendar for @${esc(data.login)} · snapshot ${fetched}</text>
-    <text class="hm-mono" x="${legendX}" y="380" font-size="12" fill="#EF4444">Less</text>
+    <text class="hm-mono" x="48" y="380" font-size="12" fill="#71717A">Source: public GitHub contribution calendar for @${esc(data.login)} · snapshot ${fetched}</text>
+    <text class="hm-mono" x="${legendX}" y="380" font-size="12" fill="#A1A1AA">Less</text>
     ${legend}
-    <text class="hm-mono" x="${legendX + 42 + 5 * 20 + 6}" y="380" font-size="12" fill="#EF4444">More</text>
+    <text class="hm-mono" x="${legendX + 42 + 5 * 20 + 6}" y="380" font-size="12" fill="#A1A1AA">More</text>
   </g>
 </svg>
 `;

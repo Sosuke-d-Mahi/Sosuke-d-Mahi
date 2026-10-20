@@ -1,25 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Easir Iqbal Mahi — Signature">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Easir Iqbal Mahi — Signature">
   <defs>
-    <linearGradient id="foot-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#17060A"/>
-      <stop offset="100%" stop-color="#0A0205"/>
-    </linearGradient>
     <style>
       .t-bold { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
       .t-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
+      .t-semi { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 600; }
     </style>
   </defs>
 
-  <rect x="10" y="10" width="1180" height="220" rx="24" fill="url(#foot-bg)" stroke="#991B1B" stroke-width="2.5"/>
+  <rect x="8" y="8" width="1184" height="204" rx="20" fill="#0C0D11" stroke="#222329" stroke-width="1.5"/>
 
   <g transform="translate(0, 36)" text-anchor="middle">
     <!-- Signature -->
-    <text class="t-bold" x="600" y="56" font-size="52" fill="#FFFFFF">Easir<tspan fill="#EF4444">.</tspan></text>
+    <text class="t-bold" x="600" y="46" font-size="46" fill="#FFFFFF">Easir<tspan fill="#DC2626">.</tspan></text>
     
     <!-- Tagline -->
-    <text class="t-mono" x="600" y="96" font-size="15" letter-spacing="2.5" fill="#EF4444">FULL-STACK SOFTWARE DEVELOPER · FOUNDER @ LAGBETO</text>
+    <text class="t-mono" x="600" y="82" font-size="13" letter-spacing="2.2" fill="#DC2626">FULL-STACK SOFTWARE DEVELOPER · FOUNDER @ LAGBETO</text>
 
-    <!-- Quote -->
-    <text class="t-bold" x="600" y="142" font-size="17" fill="#FFFFFF">“I don’t seek approval, I seek superiority then I build until reality has no choice but to agree.”</text>
+    <!-- Footer Links Strip -->
+    <g transform="translate(0, 124)">
+      <text class="t-mono" x="600" y="0" font-size="13.5" letter-spacing="1.2" fill="#A1A1AA">
+        www.easirmahi.top   ·   github.com/Sosuke-d-Mahi   ·   easiriqbalmahi@gmail.com
+      </text>
+    </g>
   </g>
 </svg>
