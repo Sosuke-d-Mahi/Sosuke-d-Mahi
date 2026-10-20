@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume — Easir Iqbal Mahi</title>
+  <meta name="description" content="Resume of Easir Iqbal Mahi — Full-stack Software Developer, Founder @ Lagbeto, full-stack systems, projects, and skills.">
+  <meta name="theme-color" content="#10070C">
+  <link rel="canonical" href="https://www.easirmahi.top/resume.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Geist:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <style>
+    @layer sections {
+      body { padding-block: var(--space-xl) var(--space-3xl); }
+      body::after { display: none; }
+      .bar {
+        display: flex; flex-wrap: wrap; gap: var(--space-s); justify-content: space-between; align-items: center;
+        margin-bottom: var(--space-xl);
+      }
+      .bar__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+      .sheet {
+        padding: clamp(1.25rem, 4vw, 3.5rem);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-l);
+        background: linear-gradient(180deg, var(--ink-900), var(--ink-950));
+        box-shadow: var(--shadow-2);
+      }
+      .r-head { display: grid; gap: 0.6rem; padding-bottom: var(--space-l); border-bottom: 1px solid var(--line-strong); }
+      .r-head h1 { font-family: var(--font-display); font-size: var(--step-4); font-weight: 300; letter-spacing: -0.035em; }
+      .r-head h1 em { color: var(--rose-300); }
+      .r-head .role { color: var(--text-muted); }
+      .r-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; list-style: none; padding: 0; font-size: var(--step--1); }
+      .r-links a { color: var(--rose-200); }
+      .r-sec { display: grid; grid-template-columns: 11rem 1fr; gap: var(--space-l); padding-block: var(--space-l); border-bottom: 1px solid var(--line); }
+      .r-sec:last-child { border-bottom: 0; }
+      .r-sec > h2 { font-family: var(--font-mono); font-size: var(--step--2); letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); padding-top: 0.3rem; }
+      .r-item + .r-item { margin-top: var(--space-m); }
+      .r-item__top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1rem; }
+      .r-item h3 { font-size: var(--step-0); font-weight: 600; line-height: 1.4; }
+      .r-item .meta { font-family: var(--font-mono); font-size: var(--step--2); color: var(--text-muted); white-space: nowrap; }
+      .r-item .sub { color: var(--rose-200); font-size: var(--step--1); }
+      .r-item ul, .r-list { padding-left: 1.1rem; margin-top: 0.4rem; display: grid; gap: 0.3rem; color: var(--text-muted); font-size: var(--step--1); }
+      .r-item li::marker, .r-list li::marker { color: var(--wine-600); }
+      .r-skills { display: grid; gap: 0.35rem; font-size: var(--step--1); color: var(--text-muted); }
+      .r-skills b { color: var(--ivory); font-weight: 500; }
+      .r-note { margin-top: var(--space-l); font-size: var(--step--2); color: var(--faint); font-family: var(--font-mono); }
+      @media (max-width: 680px) { .r-sec { grid-template-columns: 1fr; gap: 0.6rem; } }
+
+      @media print {
+        @page { margin: 14mm 14mm; }
+        :root { --text-muted: #333; --rose-200: #6E1738; --accent: #6E1738; --ivory: #111; --line: #ddd; --line-strong: #bbb; --faint: #666; }
+        body { background: #fff; color: #111; padding: 0; font-size: 10.5pt; }
+        .bar, .r-note { display: none; }
+        .sheet { border: 0; padding: 0; box-shadow: none; background: none; }
+        .r-sec { break-inside: avoid; padding-block: 0.6rem; }
+        .r-head h1 { font-size: 24pt; }
+        a { color: inherit !important; }
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container" style="max-width: 920px">
+    <div class="bar">
+      <a class="btn btn--ghost btn--small" href="./">← Back to portfolio</a>
+      <div class="bar__actions">
+        <button class="btn btn--primary btn--small" type="button" onclick="window.print()">Save as PDF / Print</button>
+      </div>
+    </div>
+
+    <article class="sheet">
+      <header class="r-head">
+        <h1>Easir Iqbal <em>Mahi</em></h1>
+        <p class="role">Full-stack Software Developer · Founder @ Lagbeto</p>
+        <ul class="r-links">
+          <li><a class="link-u" href="mailto:easiriqbalmahi@gmail.com">easiriqbalmahi@gmail.com</a></li>
+          <li><a class="link-u" href="https://github.com/Sosuke-d-Mahi" target="_blank" rel="noopener">github.com/Sosuke-d-Mahi</a></li>
+          <li><a class="link-u" href="https://www.linkedin.com/in/easirmahi/" target="_blank" rel="noopener">linkedin.com/in/easirmahi</a></li>
+          <li><a class="link-u" href="https://www.easirmahi.top" target="_blank" rel="noopener">easirmahi.top</a></li>
+        </ul>
+      </header>
+
+      <section class="r-sec">
+        <h2>Experience</h2>
+        <div class="r-item">
+          <div class="r-item__top"><h3>Lagbeto — Founder &amp; Lead Full-Stack Developer</h3><span class="meta">2025 – Present</span></div>
+          <p class="sub">Startup Venture</p>
+          <ul>
+            <li>Founded and engineered Lagbeto, architecting core full-stack platform features, databases, and microservices from inception.</li>
+            <li>Developed reactive frontend applications using Next.js, React, and TypeScript with state-of-the-art UI performance.</li>
+            <li>Designed high-throughput backend APIs and services in Go and Node.js with PostgreSQL and Redis caching layers.</li>
+            <li>Configured containerized deployments using Docker, Cloudflare routing, and automated CI/CD pipelines.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Projects</h2>
+        <div>
+          <div class="r-item">
+            <div class="r-item__top"><h3><a class="link-u" href="https://github.com/Sosuke-d-Mahi/api-docs.git" target="_blank" rel="noopener">api-docs</a> (Featured Project)</h3><span class="meta">2026</span></div>
+            <p class="sub">TypeScript, Node.js, REST APIs, Developer Tooling</p>
+            <ul>
+              <li>Engineered a modern, interactive API documentation and developer portal system with OpenAPI schema parsing and real-time query playgrounds.</li>
+              <li>Achieved sub-10ms render latency with client-side search indexing and multi-language code generation.</li>
+            </ul>
+          </div>
+          <div class="r-item">
+            <div class="r-item__top"><h3>Lagbeto Platform</h3><span class="meta">2026</span></div>
+            <p class="sub">Next.js, Go, PostgreSQL, Redis, Docker</p>
+            <ul>
+              <li>Built an event-driven multi-tier startup ecosystem with secure authentication, real-time sync, and resilient cloud architecture.</li>
+              <li>Optimized SQL queries and Redis caching, cutting page load times by over 50%.</li>
+            </ul>
+          </div>
+          <div class="r-item">
+            <div class="r-item__top"><h3>Game Modding &amp; Low-Level Tooling</h3><span class="meta">Ongoing</span></div>
+            <p class="sub">C++, Python, Assembly, Reverse Engineering</p>
+            <ul>
+              <li>Authored custom game modifications, runtime memory hooks, and engine injection utilities.</li>
+              <li>Engineered automation scripts and asset patches for dynamic gameplay expansion.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Skills</h2>
+        <div class="r-skills">
+          <p><b>Languages:</b> TypeScript (Primary), Python, Go, Node.js, JavaScript, Java, Kotlin, Dart, C, C++, PHP, Swift, Bash</p>
+          <p><b>Frontend &amp; Mobile:</b> React, Next.js, Flutter, TailwindCSS, Bootstrap, HTML5, CSS3, Vue.js, Angular, Astro</p>
+          <p><b>Backend &amp; APIs:</b> Node.js, Express.js, FastAPI, Django, Go, REST APIs, Microservices, Realtime Sockets</p>
+          <p><b>Databases:</b> PostgreSQL, MySQL, MongoDB, MariaDB, Firestore, Redis, Supabase, DynamoDB, Firebase</p>
+          <p><b>Cloud &amp; DevOps:</b> Docker, Google Cloud, Railway, Vercel, Cloudflare, Nginx, Linux, Windows</p>
+          <p><b>Tools &amp; AI:</b> VS Code, Git, GitHub, Vite, Postman, Gemini, OpenAI, Claude Code, Cursor AI</p>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Telemetry</h2>
+        <ul class="r-list">
+          <li><strong>GitHub Activity:</strong> 679+ public contributions in the past year; active open-source creator.</li>
+          <li><strong>Philosophy:</strong> <em>"I don’t seek approval, I seek superiority then I build until reality has no choice but to agree."</em></li>
+          <li><strong>Collaboration:</strong> Open to collaborating with pro full-stack developers on high-impact products.</li>
+          <li><strong>Interests:</strong> Building startups, advanced system design, game modding &amp; playing games.</li>
+        </ul>
+      </section>
+    </article>
+    <p class="r-note">Contact details: easiriqbalmahi@gmail.com · Portfolio: www.easirmahi.top. Use “Save as PDF” to download a copy.</p>
+  </main>
+</body>
+</html>
