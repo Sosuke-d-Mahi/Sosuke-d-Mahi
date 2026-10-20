@@ -36,7 +36,7 @@
       <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#FCA5A5"><tspan fill="#EF4444">BUILT ›</tspan> Custom engine injectors, memory hooks, asset modifications and automated mod patches</text>
       <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#EF4444" stroke-opacity=".3"/>
       <g transform="translate(56 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Realtime</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">Memory &amp; API Hooks</text></g>
-      <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Low-Level</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">C / C++ &amp; Assembly</text></g>
+      <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Low-Level</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">C, C++ &amp; Assembly</text></g>
       <g transform="translate(466 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Custom</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">Scripting &amp; Automation</text></g>
       <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="55" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="83" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">C++</text></g>
       <g class="p3-chip" style="animation-delay:1.12s"><rect x="119" y="314" width="65" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="151" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Python</text></g>

@@ -39,7 +39,7 @@
       <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#EF4444">01 · FEATURED PROJECT · DEV TOOLS · 2026</text>
       <text class="p1-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#FFFFFF">api-docs</text>
       <text class="p1-sans" x="56" y="166" font-size="17" fill="#94A3B8">Interactive, modern API documentation and developer portal system.</text>
-      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#FCA5A5"><tspan fill="#EF4444">BUILT ›</tspan> OpenAPI/Swagger parser, real-time testing console, fast search, multi-language snippets</text>
+      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#FCA5A5"><tspan fill="#EF4444">BUILT ›</tspan> OpenAPI &amp; Swagger parser, real-time testing console, fast search, multi-language snippets</text>
       <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#EF4444" stroke-opacity=".3"/>
       <g transform="translate(56 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#FFFFFF">100%</text><text class="p1-sans" y="24" font-size="12.5" fill="#94A3B8">Type-safe Architecture</text></g>
       <g transform="translate(261 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#FFFFFF">&lt;10ms</text><text class="p1-sans" y="24" font-size="12.5" fill="#94A3B8">Render &amp; Query Latency</text></g>

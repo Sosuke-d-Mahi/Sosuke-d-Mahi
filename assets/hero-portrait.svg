@@ -195,7 +195,7 @@
       <circle cx="20" cy="17" r="4" fill="#EF4444">
         
       </circle>
-      <text class="hero-mono" x="34" y="21.5" font-size="12" fill="#94A3B8">~/easir<tspan fill="#EF4444"> $ </tspan><tspan fill="#FFFFFF">build --superiority</tspan></text>
+      <text class="hero-mono" x="34" y="21.5" font-size="12" fill="#94A3B8">easir ~<tspan fill="#EF4444"> $ </tspan><tspan fill="#FFFFFF">build --superiority</tspan></text>
       <rect x="300" y="10" width="7" height="14" fill="#FCA5A5">
         
       </rect>
@@ -224,7 +224,7 @@
     <g class="hero-fade d6">
       <line x1="72" y1="446" x2="1128" y2="446" stroke="#EF4444" stroke-opacity=".14"/>
       <text class="hero-mono" x="72" y="466" font-size="10.5" letter-spacing="2" fill="#94A3B8">TYPESCRIPT · PYTHON · GO · NODE.JS · JAVASCRIPT · JAVA · FLUTTER · KOTLIN</text>
-      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#FCA5A5">WWW.EASIRMAHI.TOP · GITHUB.COM/SOSUKE-D-MAHI</text>
+      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#FCA5A5">WWW.EASIRMAHI.TOP · GITHUB.COM · @SOSUKE-D-MAHI</text>
     </g>
 
     <!-- Frame -->
