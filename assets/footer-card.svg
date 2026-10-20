@@ -1,23 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Easir Iqbal Mahi — Signature">
   <defs>
     <linearGradient id="foot-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A0C16"/>
-      <stop offset="100%" stop-color="#10070D"/>
+      <stop offset="0%" stop-color="#18070B"/>
+      <stop offset="100%" stop-color="#080204"/>
     </linearGradient>
     <style>
       .t-bold { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
       .t-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
+      @keyframes neon-pulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #FF334B); }
+      }
+      .anim-sig { animation: neon-pulse 3s infinite ease-in-out; }
     </style>
   </defs>
 
-  <rect x="10" y="10" width="1180" height="220" rx="24" fill="url(#foot-bg)" stroke="#701A3D" stroke-width="2.5"/>
+  <rect x="10" y="10" width="1180" height="220" rx="24" fill="url(#foot-bg)" stroke="#DC2626" stroke-width="2"/>
 
   <g transform="translate(0, 36)" text-anchor="middle">
     <!-- Signature -->
-    <text class="t-bold" x="600" y="56" font-size="52" fill="#FFFFFF">Easir<tspan fill="#E5B5C7">.</tspan></text>
+    <text class="t-bold anim-sig" x="600" y="56" font-size="52" fill="#FFFFFF">Easir<tspan fill="#FF334B">.</tspan></text>
     
-    <!-- Tagline -->
-    <text class="t-mono" x="600" y="96" font-size="14.5" letter-spacing="2.5" fill="#E5B5C7">FULL-STACK SOFTWARE DEVELOPER · FOUNDER @ LAGBETO</text>
+    <!-- Tagline (No slashes!) -->
+    <text class="t-mono" x="600" y="96" font-size="14.5" letter-spacing="2.5" fill="#FF334B">FULL-STACK SOFTWARE DEVELOPER · FOUNDER @ LAGBETO</text>
 
     <!-- Quote -->
     <text class="t-bold" x="600" y="142" font-size="17" fill="#FFFFFF">“I don’t seek approval, I seek superiority then I build until reality has no choice but to agree.”</text>

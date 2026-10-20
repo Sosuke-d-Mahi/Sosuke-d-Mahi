@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="Tech Stack of Easir Iqbal Mahi">
   <defs>
     <linearGradient id="tech-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A0C16"/>
-      <stop offset="100%" stop-color="#10070D"/>
+      <stop offset="0%" stop-color="#18070B"/>
+      <stop offset="100%" stop-color="#080204"/>
     </linearGradient>
     <style>
       .t-bold { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
       .t-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
-      .cat-lbl { font-family: "JetBrains Mono", monospace; font-size: 13.5px; font-weight: 700; fill: #E5B5C7; letter-spacing: 1.5px; }
-      .pill-primary { fill: #38122B; stroke: #941F4D; stroke-width: 1.5; rx: 9; }
-      .pill-sub { fill: #200E1C; stroke: #701A3D; stroke-width: 1.2; rx: 9; }
+      .cat-lbl { font-family: "JetBrains Mono", monospace; font-size: 13.5px; font-weight: 700; fill: #FF334B; letter-spacing: 1.5px; }
+      .pill-primary { fill: #2B0B13; stroke: #DC2626; stroke-width: 1.5; rx: 9; }
+      .pill-sub { fill: #1C070C; stroke: #991B1B; stroke-width: 1.2; rx: 9; }
       .pill-lbl { font-family: system-ui, sans-serif; font-size: 14.5px; font-weight: 700; fill: #FFFFFF; }
     </style>
   </defs>
 
-  <rect x="10" y="10" width="1180" height="410" rx="24" fill="url(#tech-bg)" stroke="#701A3D" stroke-width="2.5"/>
+  <rect x="10" y="10" width="1180" height="410" rx="24" fill="url(#tech-bg)" stroke="#DC2626" stroke-width="2"/>
 
-  <!-- Header -->
+  <!-- Header (No slashes!) -->
   <g transform="translate(56, 46)">
-    <circle cx="6" cy="6" r="5" fill="#E5B5C7"/>
-    <text class="t-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#E5B5C7">03 / TECH STACK &amp; TOOLKIT</text>
+    <circle cx="6" cy="6" r="5" fill="#FF334B"/>
+    <text class="t-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#FF334B">TECH STACK &amp; TOOLKIT</text>
     <text class="t-bold" x="0" y="52" font-size="34" fill="#FFFFFF">Languages &amp; Technologies I Build With</text>
   </g>
 

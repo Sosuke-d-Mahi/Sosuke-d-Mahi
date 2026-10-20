@@ -3,23 +3,23 @@
 </a>
 
 <p align="center">
-  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub profile"></a>
-  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email"></a>
+  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="GitHub profile"></a>
+  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=gmail" alt="Email"></a>
 </p>
 
 <img src="assets/about-card.svg" width="100%" alt="About Easir Iqbal Mahi">
 
 <p align="center">
-  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Featured_Project-api--docs-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="Featured Project: api-docs"></a>
+  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Featured_Project-api--docs-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="Featured Project: api-docs"></a>
 </p>
 
 <img src="assets/projects-card.svg" width="100%" alt="Featured Work & Venture">
 
 <p align="center">
-  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Repository-api--docs-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="api-docs repository"></a>
-  <a href="https://github.com/Sosuke-d-Mahi?tab=repositories"><img src="https://img.shields.io/badge/View_All-Repositories-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="All repositories"></a>
+  <a href="https://github.com/Sosuke-d-Mahi/api-docs"><img src="https://img.shields.io/badge/Repository-api--docs-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="api-docs repository"></a>
+  <a href="https://github.com/Sosuke-d-Mahi?tab=repositories"><img src="https://img.shields.io/badge/View_All-Repositories-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="All repositories"></a>
 </p>
 
 <img src="assets/tech-card.svg" width="100%" alt="Tech Stack & Toolkit">
@@ -95,8 +95,8 @@
 </a>
 
 <p align="center">
-  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub profile"></a>
-  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email"></a>
+  <a href="https://www.easirmahi.top" target="_blank"><img src="https://img.shields.io/badge/Portfolio-easirmahi.top-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/easirmahi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-easirmahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://github.com/Sosuke-d-Mahi" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sosuke--d--Mahi-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=github" alt="GitHub profile"></a>
+  <a href="mailto:easiriqbalmahi@gmail.com"><img src="https://img.shields.io/badge/Email-easiriqbalmahi@gmail.com-DC2626?style=for-the-badge&labelColor=111116&logoColor=white&logo=gmail" alt="Email"></a>
 </p>
