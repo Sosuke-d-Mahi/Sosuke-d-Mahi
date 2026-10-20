@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Renders assets/contribution-snake.svg with editorial charcoal & burgundy theme.
- * Clean, lightweight, native radar pulse on status dot, zero broken CSS animation.
+ * Renders assets/contribution-snake.svg for the profile README from the
+ * real contribution snapshot in site/data/contributions.json.
  */
 
 import fs from "node:fs";
@@ -17,7 +17,7 @@ const GAP = 4;
 const STEP = CELL + GAP;
 const GRID_X = 118;
 const GRID_Y = 175;
-const LEVELS = ["#14151B", "#4A121E", "#7F1D2D", "#DC2626", "#EF4444"];
+const LEVELS = ["#240F1E", "#521632", "#7E1B44", "#AD2258", "#E5B5C7"];
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const toDate = (iso) => new Date(`${iso}T00:00:00Z`);
@@ -50,25 +50,47 @@ const first = toDate(days[0].date);
 const last = toDate(days[days.length - 1].date);
 const fetched = data.fetchedAt ? fmt(new Date(data.fetchedAt)) : fmt(last);
 
-/* ---- Heatmap Grid ---- */
+/* ---- Grid ---- */
 const offset = first.getUTCDay();
-const pos = (idx) => {
-  const abs = idx + offset;
-  const col = Math.floor(abs / 7);
-  const row = abs % 7;
-  return { x: GRID_X + col * STEP, y: GRID_Y + row * STEP };
+const pos = (i) => {
+  const week = Math.floor((i + offset) / 7);
+  const dow = (i + offset) % 7;
+  return { week, dow, x: GRID_X + week * STEP, y: GRID_Y + dow * STEP };
 };
+const label = (d) => `${d.count} contribution${d.count === 1 ? "" : "s"} · ${fmt(toDate(d.date))}`;
 
-const label = (d) =>
-  d.count === 0
-    ? `No contributions on ${fmt(toDate(d.date))}`
-    : `${d.count} contribution${d.count === 1 ? "" : "s"} on ${fmt(toDate(d.date))}`;
+/* ---- Snake ---- */
+const weeksCount = Math.floor((days.length - 1 + offset) / 7) + 1;
+const center = (week, dow) => [GRID_X + week * STEP + CELL / 2, GRID_Y + dow * STEP + CELL / 2];
+const route = [];
+for (let w = 0; w < weeksCount; w++) {
+  for (let r = 0; r < 7; r++) route.push(center(w, w % 2 === 0 ? r : 6 - r));
+}
+const [fx, fy] = route[0];
+const [lx, ly] = route[route.length - 1];
+route.unshift([fx, fy - STEP]);
+route.push([lx + STEP, ly]);
+const SNAKE_DT = 0.055;
+const SNAKE_BEGIN = 2.4;
+const runTime = (route.length - 1) * SNAKE_DT;
+const loop = runTime + 3.5;
+const runFrac = (runTime / loop).toFixed(4);
+const routeD = "M" + route.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join(" L");
+
+const routeIndex = (i) => {
+  const { week, dow } = pos(i);
+  return week * 7 + (week % 2 === 0 ? dow : 6 - dow) + 1;
+};
 
 const cellsSvg = days
   .map((d, i) => {
-    const { x, y } = pos(i);
-    const color = LEVELS[d.level] || LEVELS[0];
-    return `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${color}"><title>${label(d)}</title></rect>`;
+    const { week, dow, x, y } = pos(i);
+    const delay = (0.3 + (week + dow * 1.6) * 0.018).toFixed(3);
+    const color = LEVELS[d.level] ?? LEVELS[0];
+    const eat = d.count > 0
+      ? `<animate attributeName="fill" values="${color};${LEVELS[0]}" keyTimes="0;${((routeIndex(i) * SNAKE_DT) / loop).toFixed(4)}" calcMode="discrete" dur="${loop.toFixed(2)}s" begin="${SNAKE_BEGIN}s" repeatCount="indefinite"/>`
+      : "";
+    return `<rect class="hm-c" style="animation-delay:${delay}s" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3.5" fill="${color}"><title>${label(d)}</title>${eat}</rect>`;
   })
   .join("\n    ");
 
@@ -76,11 +98,26 @@ let streakSvg = "";
 if (best > 1) {
   const startPos = pos(bestStart);
   const labelX = Math.min(startPos.x, W - 420);
-  streakSvg = `<g>
-      <path d="M${startPos.x + CELL / 2} ${GRID_Y + 7 * STEP - 2} V ${GRID_Y + 7 * STEP + 10}" stroke="#DC2626" stroke-width="1.8"/>
-      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="12" font-weight="700" letter-spacing="1.2" fill="#DC2626">LONGEST STREAK · ${best} DAYS · ${fmt(toDate(days[bestStart].date)).toUpperCase()} – ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
+  streakSvg = `<g class="hm-fade" style="animation-delay:2.6s">
+      <path d="M${startPos.x + CELL / 2} ${GRID_Y + 7 * STEP - 2} V ${GRID_Y + 7 * STEP + 10}" stroke="#E5B5C7" stroke-width="1.8"/>
+      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E5B5C7">LONGEST STREAK · ${best} DAYS · ${fmt(toDate(days[bestStart].date)).toUpperCase()} – ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
     </g>`;
 }
+
+const SEGMENTS = 9;
+const snakeSvg = Array.from({ length: SEGMENTS }, (_, k) => {
+  const seg = SEGMENTS - 1 - k;
+  const size = CELL - seg * 0.9;
+  const fill = seg === 0 ? "#FFFFFF" : seg < 3 ? "#E5B5C7" : seg < 6 ? "#C77B9B" : "#7E1B44";
+  const op = (1 - seg * 0.06).toFixed(2);
+  const begin = (SNAKE_BEGIN + seg * SNAKE_DT).toFixed(3);
+  const eyes = seg === 0 ? `<circle cx="${(size / 2 - 4).toFixed(1)}" cy="-2.5" r="1.3" fill="#10070C"/><circle cx="${(size / 2 - 4).toFixed(1)}" cy="2.5" r="1.3" fill="#10070C"/>` : "";
+  return `<g opacity="0">
+      <animateMotion path="${routeD}" rotate="auto" dur="${loop.toFixed(2)}s" begin="${begin}s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;${runFrac};1"/>
+      <animate attributeName="opacity" values="${op};0" keyTimes="0;${runFrac}" calcMode="discrete" dur="${loop.toFixed(2)}s" begin="${begin}s" repeatCount="indefinite"/>
+      <rect x="${(-size / 2).toFixed(1)}" y="${(-size / 2).toFixed(1)}" width="${size.toFixed(1)}" height="${size.toFixed(1)}" rx="${(size / 2.6).toFixed(1)}" fill="${fill}"/>${eyes}
+    </g>`;
+}).join("\n    ");
 
 /* ---- Month labels ---- */
 const labels = [];
@@ -103,45 +140,53 @@ const stats = [
   ["BUSIEST DAY", String(peak.count), fmt(toDate(peak.date))],
 ];
 const statsSvg = stats
-  .map(([lbl, value, sub], i) => {
+  .map(([label, value, sub], i) => {
     const x = 580 + i * 150;
     return `<g transform="translate(${x} 54)">
-      <rect x="0" y="0" width="140" height="74" rx="10" fill="#14151B" stroke="#23242B" stroke-width="1.2" />
-      <text class="hm-mono" x="14" y="24" font-size="11" font-weight="700" letter-spacing="1.2" fill="#DC2626">${lbl}</text>
+      <rect x="0" y="0" width="140" height="74" rx="14" fill="#220F1D" stroke="#701A3D" stroke-width="1.4" />
+      <text class="hm-mono" x="14" y="24" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E5B5C7">${label}</text>
       <text class="hm-sans" x="14" y="52" font-size="26" font-weight="800" fill="#FFFFFF">${esc(value)}</text>
-      <text class="hm-mono" x="14" y="66" font-size="10" font-weight="600" fill="#A1A1AA">${esc(sub)}</text>
+      <text class="hm-mono" x="14" y="66" font-size="10" font-weight="600" fill="#C77B9B">${esc(sub)}</text>
     </g>`;
   })
   .join("\n    ");
 
 const legendX = W - 56 - 5 * 20 - 90;
-const legend = LEVELS.map((c, i) => `<rect x="${legendX + 42 + i * 20}" y="369" width="14" height="14" rx="3" fill="${c}"/>`).join("");
+const legend = LEVELS.map((c, i) => `<rect x="${legendX + 42 + i * 20}" y="369" width="14" height="14" rx="3.5" fill="${c}"/>`).join("");
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="hm-title hm-desc">
   <title id="hm-title">GitHub contributions for @${esc(data.login)}</title>
   <desc id="hm-desc">${total} contributions from ${fmt(first)} to ${fmt(last)}: ${active} active days, longest streak ${best} days, busiest day ${peak.count} contributions on ${fmt(toDate(peak.date))}. Source: ${esc(data.method || "public GitHub contribution calendar")}, snapshot ${fetched}.</desc>
+  <defs>
+    <linearGradient id="hm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A0C16"/>
+      <stop offset="100%" stop-color="#10070D"/>
+    </linearGradient>
+  </defs>
   <style>
     .hm-sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
     .hm-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 700; }
+    .hm-c { transform-box: fill-box; transform-origin: center; animation: hm-in .8s cubic-bezier(.34,1.56,.64,1) both; }
+    .hm-fade { animation: hm-fade 1.2s ease both; }
+    @keyframes hm-in { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @keyframes hm-fade { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .hm-c, .hm-fade { animation: none; } .hm-motion { display: none; } }
   </style>
 
-  <rect x="8" y="8" width="${W - 16}" height="${H - 16}" rx="20" fill="#0C0D11" stroke="#222329" stroke-width="1.5"/>
+  <!-- Dark Reddish Card Background -->
+  <rect x="10" y="10" width="${W - 20}" height="${H - 20}" rx="24" fill="url(#hm-bg)" stroke="#701A3D" stroke-width="2.5"/>
 
   <!-- Top Header Bar -->
-  <g transform="translate(48, 42)">
-    <circle cx="6" cy="6" r="4" fill="#DC2626"/>
-    <circle cx="6" cy="6" r="4" fill="none" stroke="#DC2626" stroke-width="1.5">
-      <animate attributeName="r" values="4;10;4" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <text class="hm-mono" x="22" y="10" font-size="12.5" letter-spacing="1.8" fill="#E4E4E7">04 · COMMIT LOG &amp; REAL ACTIVITY</text>
-    <text class="hm-sans" x="0" y="58" font-size="32" fill="#FFFFFF">A year of building, <tspan fill="#DC2626">one square</tspan> at a time.</text>
+  <g class="hm-fade" transform="translate(56, 46)">
+    <circle cx="6" cy="6" r="5" fill="#E5B5C7" />
+    <text class="hm-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#E5B5C7">04 · COMMIT LOG &amp; REAL ACTIVITY</text>
+    <text class="hm-sans" x="0" y="58" font-size="32" fill="#FFFFFF">A year of building, <tspan fill="#E5B5C7">one square</tspan> at a time.</text>
     ${statsSvg}
   </g>
 
   <!-- Month & Day Labels -->
-  <g class="hm-mono" font-size="12" fill="#A1A1AA">${monthSvg}</g>
-  <g class="hm-mono" font-size="11.5" fill="#71717A" text-anchor="end">
+  <g class="hm-mono" font-size="12" fill="#E5B5C7">${monthSvg}</g>
+  <g class="hm-mono" font-size="11.5" fill="#E5B5C7" text-anchor="end">
     <text x="${GRID_X - 14}" y="${GRID_Y + STEP + 11}">Mon</text>
     <text x="${GRID_X - 14}" y="${GRID_Y + 3 * STEP + 11}">Wed</text>
     <text x="${GRID_X - 14}" y="${GRID_Y + 5 * STEP + 11}">Fri</text>
@@ -152,14 +197,19 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
     ${cellsSvg}
   </g>
 
+  <!-- Snake Motion -->
+  <g class="hm-motion">
+    ${snakeSvg}
+  </g>
+
   ${streakSvg}
 
   <!-- Footer Legend -->
-  <g>
-    <text class="hm-mono" x="48" y="380" font-size="12" fill="#71717A">Source: public GitHub contribution calendar for @${esc(data.login)} · snapshot ${fetched}</text>
-    <text class="hm-mono" x="${legendX}" y="380" font-size="12" fill="#A1A1AA">Less</text>
+  <g class="hm-fade">
+    <text class="hm-mono" x="56" y="380" font-size="12" fill="#C77B9B">Source: public GitHub contribution calendar for @${esc(data.login)} · snapshot ${fetched}</text>
+    <text class="hm-mono" x="${legendX}" y="380" font-size="12" fill="#E5B5C7">Less</text>
     ${legend}
-    <text class="hm-mono" x="${legendX + 42 + 5 * 20 + 6}" y="380" font-size="12" fill="#A1A1AA">More</text>
+    <text class="hm-mono" x="${legendX + 42 + 5 * 20 + 6}" y="380" font-size="12" fill="#E5B5C7">More</text>
   </g>
 </svg>
 `;

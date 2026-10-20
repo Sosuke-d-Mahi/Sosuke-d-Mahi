@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+  <title id="tc-title">Tech stack — Easir Iqbal Mahi</title>
+  <desc id="tc-desc">Languages: TypeScript (primary), Python, Go, Java, Kotlin, C, C++, PHP, Swift. Frontend and Mobile: React, Next.js, Flutter, TailwindCSS, Vue.js, Angular, Astro. Backend: Node.js, Express.js, FastAPI, Django, Go, REST APIs, Microservices. Databases: PostgreSQL, MongoDB, Redis, Supabase, MySQL, MariaDB, Firestore. Cloud and DevOps: Docker, Google Cloud, Vercel, Railway, Cloudflare, Nginx, Linux. Tools and AI: VS Code, Git, GitHub, Postman, Gemini, OpenAI, Claude Code, Cursor AI, Vite.</desc>
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120508"/><stop offset="1" stop-color="#090305"/>
+    </linearGradient>
+    <radialGradient id="tc-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#450A14" stop-opacity=".9"/><stop offset="1" stop-color="#450A14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tc-pulse">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".5" stop-color="#FCA5A5" stop-opacity=".6"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tc-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#FCA5A5"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .tc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .tc-panel {  }
+    .tc-p1 {  } .tc-p2 {  } .tc-p3 {  }
+    .tc-p4 {  } .tc-p5 {  } .tc-p6 {  }
+    .tc-web {  stroke-dashoffset: 0;  }
+    
+    
+    
+    .tc-trace {  stroke-dashoffset: 0;  }
+    
+    
+  </style>
+
+  <rect width="1200" height="500" rx="20" fill="url(#tc-bg)"/>
+  <rect width="1200" height="500" rx="20" fill="url(#tc-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#EF4444" stroke-opacity=".22"/>
+
+  <!-- Constellation: gutters linking the six groups -->
+  <path class="tc-web" d="M24 250 H1176 M406 24 V476 M794 24 V476" fill="none" stroke="#EF4444" stroke-opacity=".22"/>
+  <circle cx="0" cy="250" r="8" fill="url(#tc-pulse)" opacity="0">
+    
+    
+  </circle>
+  <g fill="#090305" stroke="#FCA5A5">
+    <rect x="400" y="244" width="12" height="12" transform="rotate(45 406 250)"/>
+    <rect x="788" y="244" width="12" height="12" transform="rotate(45 794 250)"/>
+  </g>
+
+  <!-- Row 1 -->
+  <g class="tc-panel tc-p1"><g transform="translate(32 32)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:0.00s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">01 · LANGUAGES</text>
+    <text class="tc-serif" x="24" y="96" font-size="38" font-weight="300" fill="#FFFFFF">TypeScript <tspan font-size="12" class="tc-mono" fill="#EF4444" dy="-16">CORE</tspan></text>
+    <text class="tc-serif" x="24" y="146" font-size="34" font-weight="300" fill="#FFFFFF">Python  ·  Go</text>
+    <text class="tc-serif" x="24" y="180" font-size="20" font-weight="300" fill="#94A3B8">Node.js · Java · Kotlin · Dart</text>
+  </g></g>
+  <g class="tc-panel tc-p2"><g transform="translate(420 32)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-1.15s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">02 · BACKEND &amp; APIS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#FFFFFF">Node.js  ·  Express</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#FFFFFF">FastAPI  ·  Django  ·  Go</text>
+    <text class="tc-serif" x="24" y="164" font-size="22" font-weight="300" fill="#94A3B8">REST APIs  ·  Microservices</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#94A3B8">HIGH-PERFORMANCE ARCHITECTURE</text>
+  </g></g>
+  <g class="tc-panel tc-p3"><g transform="translate(808 32)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-2.30s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">03 · FRONTEND &amp; MOBILE</text>
+    <text class="tc-serif" x="24" y="96" font-size="38" font-weight="300" fill="#FFFFFF">React  ·  Next.js</text>
+    <text class="tc-serif" x="24" y="140" font-size="26" font-weight="300" fill="#FFFFFF">Flutter  ·  TailwindCSS</text>
+    <text class="tc-serif" x="24" y="176" font-size="20" font-weight="300" fill="#94A3B8">Vue.js  ·  Angular  ·  Astro</text>
+  </g></g>
+
+  <!-- Row 2 -->
+  <g class="tc-panel tc-p4"><g transform="translate(32 268)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-3.45s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">04 · DATABASES</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#FFFFFF">PostgreSQL  ·  MongoDB</text>
+    <text class="tc-serif" x="24" y="132" font-size="24" font-weight="300" fill="#FFFFFF">Redis  ·  Supabase</text>
+    <text class="tc-serif" x="24" y="170" font-size="20" font-weight="300" fill="#94A3B8">MySQL · MariaDB · Firestore · DynamoDB</text>
+  </g></g>
+  <g class="tc-panel tc-p5"><g transform="translate(420 268)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-4.60s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">05 · CLOUD &amp; DEVOPS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#FFFFFF">Docker  ·  Google Cloud</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#FFFFFF">Vercel  ·  Railway  ·  Cloudflare</text>
+    <text class="tc-serif" x="24" y="166" font-size="22" font-weight="300" fill="#94A3B8">Nginx  ·  Linux</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#94A3B8">CONTAINERIZATION · AUTOMATION</text>
+  </g></g>
+  <g class="tc-panel tc-p6"><g transform="translate(808 268)">
+    <rect width="360" height="200" rx="14" fill="#120508" fill-opacity=".85" stroke="#EF4444" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-5.75s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#EF4444">06 · TOOLS &amp; AI AGENTS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#FFFFFF">VS Code  ·  Git  ·  GitHub</text>
+    <text class="tc-serif" x="24" y="130" font-size="22" font-weight="300" fill="#FFFFFF">Gemini  ·  OpenAI  ·  Claude Code</text>
+    <text class="tc-serif" x="24" y="166" font-size="22" font-weight="300" fill="#94A3B8">Cursor AI  ·  Vite  ·  Postman</text>
+  </g></g>
+</svg>

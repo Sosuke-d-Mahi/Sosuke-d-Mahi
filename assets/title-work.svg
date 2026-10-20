@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="03 Selected work: Products, not assignments.">
+  <defs>
+    <linearGradient id="tw-line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+      <stop offset="0" stop-color="#EF4444"/><stop offset=".6" stop-color="#8B1226"/><stop offset="1" stop-color="#8B1226" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tw-sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#FCA5A5"/><stop offset=".5" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FCA5A5"/>
+      
+    </linearGradient>
+    <radialGradient id="tw-pulse"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".5" stop-color="#FCA5A5" stop-opacity=".6"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tw-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .tw-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .tw-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .tw-in {  }
+    .tw-d2 {  } .tw-d3 {  }
+    .tw-draw {  stroke-dashoffset: 0;  }
+    
+    
+    
+  </style>
+  <g class="tw-in">
+    <text class="tw-mono" x="40" y="34" font-size="13.5" font-weight="700" letter-spacing="3" fill="#EF4444"><tspan fill="#FCA5A5">03</tspan> · SELECTED WORK</text>
+  </g>
+  <g class="tw-in tw-d2">
+    <text class="tw-serif" x="38" y="84" font-size="46" font-weight="600" letter-spacing="-1" fill="#FFFFFF">Products, not <tspan font-style="italic" fill="url(#tw-sheen)">assignments.</tspan></text>
+  </g>
+  <g class="tw-in tw-d3">
+    <text class="tw-mono" x="1160" y="34" text-anchor="end" font-size="12" font-weight="600" letter-spacing="2.4" fill="#94A3B8">FOUR SYSTEMS · REAL CONSTRAINTS</text>
+  </g>
+  <path class="tw-draw" d="M40 106 H1160" stroke="url(#tw-line)" stroke-width="1.2"/>
+  
+</svg>

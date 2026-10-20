@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p3-t">
+  <title id="p3-t">Game Modding &amp; Custom Systems: Low-level gameplay modding and engine scripting.</title>
+  <defs>
+    <linearGradient id="p3-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120508"/><stop offset="1" stop-color="#090305"/>
+    </linearGradient>
+    <radialGradient id="p3-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#8B1226" stop-opacity=".7"/><stop offset="1" stop-color="#450A14" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p3-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#EF4444" stroke-opacity=".08"/>
+    </pattern>
+    <clipPath id="p3-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .p3-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p3-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p3-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p3-in {  }
+    .p3-d1 {  }
+    .p3-chip {  }
+    
+    .p3-draw {  stroke-dashoffset: 0;  }
+    
+    
+    
+  </style>
+  <g clip-path="url(#p3-clip)">
+    <rect width="1200" height="370" fill="url(#p3-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p3-grid)"/>
+    <rect width="1200" height="370" fill="url(#p3-glow)"/>
+    <g class="p3-in p3-d1">
+      <text class="p3-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#EF4444">03 · PASSION &amp; SYSTEMS · GAME MODDING · 2026</text>
+      <text class="p3-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#FFFFFF">Game Modding &amp; Tooling</text>
+      <text class="p3-sans" x="56" y="166" font-size="17" fill="#94A3B8">Low-level gameplay modding, custom runtime hooks and engine scripting.</text>
+      <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#FCA5A5"><tspan fill="#EF4444">BUILT ›</tspan> Custom engine injectors, memory hooks, asset modifications and automated mod patches</text>
+      <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#EF4444" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Realtime</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">Memory &amp; API Hooks</text></g>
+      <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Low-Level</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">C, C++ &amp; Assembly</text></g>
+      <g transform="translate(466 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#FFFFFF">Custom</text><text class="p3-sans" y="24" font-size="12.5" fill="#94A3B8">Scripting &amp; Automation</text></g>
+      <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="55" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="83" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">C++</text></g>
+      <g class="p3-chip" style="animation-delay:1.12s"><rect x="119" y="314" width="65" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="151" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Python</text></g>
+      <g class="p3-chip" style="animation-delay:1.24s"><rect x="192" y="314" width="105" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="244" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Reverse Eng</text></g>
+      <g class="p3-chip" style="animation-delay:1.36s"><rect x="305" y="314" width="90" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="350" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Game Dev</text></g>
+      <g class="p3-chip" style="animation-delay:1.48s"><rect x="403" y="314" width="90" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p3-mono" x="448" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Automation</text></g>
+    </g>
+  </g>
+</svg>

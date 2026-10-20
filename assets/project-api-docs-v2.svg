@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p1-t">
+  <title id="p1-t">api-docs: Interactive, modern API documentation and developer portal system.</title>
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120508"/><stop offset="1" stop-color="#090305"/>
+    </linearGradient>
+    <radialGradient id="p1-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#8B1226" stop-opacity=".7"/><stop offset="1" stop-color="#450A14" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p1-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#EF4444" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="p1-glowf" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="p1-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p1-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#FCA5A5"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p1-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p1-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p1-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p1-in {  }
+    .p1-d1 {  } .p1-d2 {  }
+    .p1-chip {  }
+    
+    .p1-draw {  stroke-dashoffset: 0;  }
+    
+    
+    
+  </style>
+  <g clip-path="url(#p1-clip)">
+    <rect width="1200" height="370" fill="url(#p1-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p1-grid)"/>
+    <rect width="1200" height="370" fill="url(#p1-glow)"/>
+    <g class="p1-in p1-d1">
+      <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#EF4444">01 · FEATURED PROJECT · DEV TOOLS · 2026</text>
+      <text class="p1-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#FFFFFF">api-docs</text>
+      <text class="p1-sans" x="56" y="166" font-size="17" fill="#94A3B8">Interactive, modern API documentation and developer portal system.</text>
+      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#FCA5A5"><tspan fill="#EF4444">BUILT ›</tspan> OpenAPI &amp; Swagger parser, real-time testing console, fast search, multi-language snippets</text>
+      <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#EF4444" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#FFFFFF">100%</text><text class="p1-sans" y="24" font-size="12.5" fill="#94A3B8">Type-safe Architecture</text></g>
+      <g transform="translate(261 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#FFFFFF">&lt;10ms</text><text class="p1-sans" y="24" font-size="12.5" fill="#94A3B8">Render &amp; Query Latency</text></g>
+      <g transform="translate(466 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#FFFFFF">Open</text><text class="p1-sans" y="24" font-size="12.5" fill="#94A3B8">Source on GitHub</text></g>
+      <g class="p1-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="90" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p1-mono" x="101" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">TypeScript</text></g>
+      <g class="p1-chip" style="animation-delay:1.12s"><rect x="154" y="314" width="70" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p1-mono" x="189" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Node.js</text></g>
+      <g class="p1-chip" style="animation-delay:1.24s"><rect x="232" y="314" width="80" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p1-mono" x="272" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">REST API</text></g>
+      <g class="p1-chip" style="animation-delay:1.36s"><rect x="320" y="314" width="70" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p1-mono" x="355" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">OpenAPI</text></g>
+      <g class="p1-chip" style="animation-delay:1.48s"><rect x="398" y="314" width="130" height="26" rx="13" fill="#20080E" stroke="#EF4444" stroke-opacity=".35"/><text class="p1-mono" x="463" y="331" text-anchor="middle" font-size="11.5" fill="#FCA5A5">Developer Tools</text></g>
+    </g>
+  </g>
+</svg>
