@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="About Easir Iqbal Mahi">
+  <defs>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17060A"/>
+      <stop offset="100%" stop-color="#0A0205"/>
+    </linearGradient>
+    <style>
+      .t-bold { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Inter", sans-serif; font-weight: 800; }
+      .t-mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
+      .box-dark { fill: #1D060C; stroke: #991B1B; stroke-width: 1.5; rx: 16; }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="1180" height="380" rx="24" fill="url(#card-bg)" stroke="#991B1B" stroke-width="2.5"/>
+
+  <!-- Header -->
+  <g transform="translate(56, 44)">
+    <circle cx="6" cy="6" r="5" fill="#EF4444"/>
+    <text class="t-mono" x="22" y="11" font-size="14" letter-spacing="2" fill="#EF4444">01 · ABOUT ME &amp; VENTURE</text>
+    <text class="t-bold" x="0" y="52" font-size="34" fill="#FFFFFF">Currently Building &amp; <tspan fill="#EF4444">Exploring.</tspan></text>
+  </g>
+
+  <!-- 4 Grid Blocks -->
+  <g transform="translate(56, 126)">
+    <!-- Box 1 -->
+    <g>
+      <rect class="box-dark" x="0" y="0" width="525" height="106"/>
+      <text class="t-mono" x="24" y="32" font-size="13" letter-spacing="1.5" fill="#EF4444">CURRENTLY WORKING AT</text>
+      <text class="t-bold" x="24" y="66" font-size="19" fill="#FFFFFF">Founder of my own Startup called Lagbeto</text>
+      <text class="t-bold" x="24" y="90" font-size="14" fill="#FECACA">Leading platform architecture &amp; cross-platform development</text>
+    </g>
+
+    <!-- Box 2 -->
+    <g transform="translate(560, 0)">
+      <rect class="box-dark" x="0" y="0" width="525" height="106"/>
+      <text class="t-mono" x="24" y="32" font-size="13" letter-spacing="1.5" fill="#EF4444">LEARNING</text>
+      <text class="t-bold" x="24" y="66" font-size="19" fill="#FFFFFF">Talking face to face skill :)</text>
+      <text class="t-bold" x="24" y="90" font-size="14" fill="#FECACA">High-impact communication &amp; live technical dialogues</text>
+    </g>
+
+    <!-- Box 3 -->
+    <g transform="translate(0, 124)">
+      <rect class="box-dark" x="0" y="0" width="525" height="106"/>
+      <text class="t-mono" x="24" y="32" font-size="13" letter-spacing="1.5" fill="#EF4444">LOOKING TO COLLABORATE ON</text>
+      <text class="t-bold" x="24" y="66" font-size="19" fill="#FFFFFF">Pro Full-stack Developers</text>
+      <text class="t-bold" x="24" y="90" font-size="14" fill="#FECACA">Partnering with talented engineers on scalable systems</text>
+    </g>
+
+    <!-- Box 4 -->
+    <g transform="translate(560, 124)">
+      <rect class="box-dark" x="0" y="0" width="525" height="106"/>
+      <text class="t-mono" x="24" y="32" font-size="13" letter-spacing="1.5" fill="#EF4444">IN MY FREE TIME</text>
+      <text class="t-bold" x="24" y="66" font-size="19" fill="#FFFFFF">Love playing games and modding those games ^_~</text>
+      <text class="t-bold" x="24" y="90" font-size="14" fill="#FECACA">Game engine reverse engineering &amp; memory hooking</text>
+    </g>
+  </g>
+</svg>
